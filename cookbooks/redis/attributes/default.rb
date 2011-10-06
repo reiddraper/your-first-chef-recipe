@@ -6,3 +6,4 @@ default[:redis][:loglevel]  = "notice"
 default[:redis][:user]      = "redis"
 default[:redis][:port]      = 6379
 default[:redis][:bind]      = "127.0.0.1"
+default[:redis][:src_link]   = "https://github.com/antirez/redis/tarball/2.4"
